@@ -1,0 +1,234 @@
+<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register Assembly="webMenu" Namespace="SuperControls" TagPrefix="cc2" %>
+<%@ Register Assembly="webMenu" Namespace="webMenu" TagPrefix="cc1" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>RDM</title>
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <link href="../Include/Style_New.css" type="text/css" rel="stylesheet" />
+
+    <script type="text/javascript" src="../Include/Common.js"></script>
+
+    <script type="text/javascript" src="../Include/DatePicker.js"></script>
+
+    <script type="text/javascript" src="../Include/ua.js"></script>
+
+    <script type="text/javascript" src="../Include/menu.js"></script>
+
+    <script type="text/javascript" src="../Include/menu_tpl.js"></script>
+
+    <script type="text/javascript" src="../Include/jquery-1.9.1.js" language="javascript"></script>
+
+    <link type="text/css" rel="stylesheet" href="../themes/pepper-grinder/jquery-ui-1.8.23.custom.css" />
+    <link href="../Include/menu.css" type="text/css" rel="stylesheet" />
+    <link href="../Include/DatePicker.css" type="text/css" rel="stylesheet" />
+    <link href="../Include/StanChart.css" type="text/css" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <link rel="shortcut icon" type="image/x-icon" href="../Images/favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="../themes/pepper-grinder/jquery-ui-1.8.23.custom.css" />
+    <link href="../Include/Css/jquery-ui.css" type="text/css" rel="Stylesheet" />
+    <link href="../Include/Css/jquery.ui.all.css" type="text/css" rel="Stylesheet" />
+    <link href="../Include/Css/jquery.ui.base.css" type="text/css" rel="Stylesheet" />
+    <link href="../Include/Css/jquery.ui.button.css" type="text/css" rel="Stylesheet" />
+    <link href="../Include/Css/jquery.ui.core.css" type="text/css" rel="Stylesheet" />
+    <link href="../Include/Css/jquery.ui.theme.css" type="text/css" rel="Stylesheet" />
+
+    <script type="text/javascript" language="javascript" src="../Include/Script/jquery.js"></script>
+    <script type="text/javascript" language="javascript" src="../Include/Script/jquery-1.11.3.min.js"></script>
+    <script language="javascript" type="text/javascript" src="../Include/Script/jquery.ui.core.js"></script>
+    <script language="javascript" type="text/javascript" src="../Include/Script/jquery.ui.datepicker.js"></script>
+    <script language="javascript" type="text/javascript" src="../Include/Script/jquery.ui.widget.js"></script>
+    <script language="javascript" type="text/javascript" src="../Include/Script/jquery-ui.js"></script>
+    <script type="text/javascript" src="../Include/Script/showModalDialog.js"></script>
+    <script type="text/javascript" language="javascript">
+        function pageLoad() {
+            $(document).ready(function () {
+                $('.jsdate').datepicker({
+                    showOn: "button",
+                    buttonImage: "../Images/calendar.gif",
+                    buttonImageOnly: true,
+                    dateFormat: 'dd/mm/yy',
+                    buttonText: 'Select date as (dd/mm/yyyy)'
+                });
+
+                $(".jsdate").prop('maxLength', 10);
+            });
+        }
+    </script>
+    <script type="text/javascript">
+
+
+        //        var sPath = window.location.pathname;
+        //       // alert(sPath)
+        //        var sTargetURL = sPath.substring(sPath.lastIndexOf('/') + 1);
+        //        window.setInterval("renewSession()", 60000);
+        //        function renewSession()
+        //        {
+        //          document.images("renewSession").src = "/renewSes.aspx?par=" + Math.random();
+        //        }
+
+        //        function resete()
+        //        {
+        //            if(window.confirm("Are you sure you want to save this?"))
+        //            {   
+        //                return true;
+        //            }
+        //            else
+        //            {
+        //                window.location.replace( sTargetURL );   
+        //                //window.unadorned 
+        //                return false;
+        //            }
+        //       }      
+
+
+        function changeColour() {
+            var fnt = document.getElementById("lnkDealSlip")
+            if (fnt != null) {
+                if (fnt.style.color.toLowerCase() == 'red') {
+                    fnt.style.color = "blue"
+                }
+                else {
+                    fnt.style.color = "red"
+                }
+                timeout_id = setTimeout("changeColour()", 100);
+            }
+        }
+    </script>
+
+</head>
+<body style="margin-top: 0px; margin-left: 0px; margin-right: 0px; background-color: #def0ff;">
+    <form id="Form1" method="post" align="center" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true">
+        </asp:ScriptManager>
+        <table border="0" cellpadding="0" cellspacing="0" width="98%" style="margin-left: auto; margin-right: auto; vertical-align: top; border: 1px solid #969696; background-color: #FFFFFF;">
+            <tr align="center" valign="top">
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr style="padding-top: 8px; padding-bottom: 5px; height: 75px;">
+                            <td align="left" valign="middle" style="width: 50%; padding-left: 25px">
+                                <img src="../Images/CompanyLogo.png" height="80" width="300" alt="" />
+                            </td>
+                            <td align="right" style="width: 50%; padding-right: 5px;" nowrap="nowrap">
+                                <asp:Label ID="lbl_user" runat="server" CssClass="GrayText"></asp:Label>
+                                <asp:Label ID="CompanyYear" runat="server" CssClass="GrayText"></asp:Label>
+                                <br />
+                                <asp:Label ID="lit_CurrentDate" runat="server" Text="" CssClass="GrayText"></asp:Label>&nbsp;&nbsp;<%--<asp:LinkButton
+                                    ID="lnk_Sigbout" runat="server" Font-Bold="true" Text="Logout"></asp:LinkButton>--%>
+                                <a href="logout.aspx" style="font-weight: bold;">Logout</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr align="center" valign="top">
+                <td style="vertical-align: top;">
+                    <div style="background-color: #1e5f8d; height: 40px; border: 1px solid #236E96; vertical-align: bottom;">
+                        <cc2:WebMenu ID="WebMenu1" runat="server" PadWidth="24" />
+                    </div>
+                </td>
+            </tr>
+            <tr style="line-height: 5px;">
+                <td></td>
+            </tr>
+            <tr>
+                <td align="left" valign="bottom">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr id="row_Msg" runat="server">
+                            <td valign="bottom">
+                                <asp:UpdatePanel ID="upResults" runat="server" Mode="conditional">
+                                    <ContentTemplate>
+                                        <div id="DivEvents" runat="server">
+                                        </div>
+                                    </ContentTemplate>
+                                </asp:UpdatePanel>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        <%--    <div style="color: red; margin-left: auto; margin-right: auto; text-align: center; position: fixed; top: 0; z-index: 9999999; width: 100%; font-size: 30px; font-family: Calibri; font-weight: bold;">
+                eInstadeal --TESTING
+            </div>--%>
+            <tr align="center" valign="top" style="height: 400px;">
+                <td valign="top">
+                    <table cellpadding="0" cellspacing="0" border="0" width="99%" class="data_table">
+                        <tr style="line-height: 15px;">
+                            <td>&nbsp;
+                            </td>
+                        </tr>
+                        <tr align="center" valign="top">
+                            <td>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    <asp:HiddenField ID="Hid_check" runat="server" />
+                                    <asp:HiddenField ID="Hid_CRMMsg" runat="server" />
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                        <tr style="line-height: 15px;">
+                            <td>&nbsp;
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr align="left" valign="top">
+                <td>
+                    <table cellpadding="0" cellspacing="0" align="left">
+                        <tr>
+                            <td align="right">
+                                <div id="DivNewDealSlip" style="margin-top: 0px; overflow: auto; width: 350px;" align="right"
+                                    runat="server">
+                                </div>
+                                <div id="DivNewDealSlipChecked" style="margin-top: 0px; overflow: auto; width: 350px;"
+                                    align="right" runat="server">
+                                </div>
+                                <%-- <asp:Label ID="lbl_username" runat="server" CssClass="ForHeaders" />--%>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr align="left" valign="top">
+                <td>
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td align="right">
+                                <div id="DivCRMGenertd" style="margin-top: 0px; overflow: auto; width: 350px;" align="right"
+                                    runat="server">
+                                </div>
+                                <%-- <asp:Label ID="lbl_CRMMsg" runat="server" CssClass="ForHeaders" />--%>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr align="center" valign="top">
+                <td class="GrayText">Copyright <b>&copy;</b> 2020 Genesis Software
+                </td>
+            </tr>
+            <tr style="height: 10px; background-color: #FFFFFF;">
+                <td></td>
+            </tr>
+        </table>
+
+        <script type="text/javascript">
+            if (typeof (window.addEventListener) != "undefined") {
+                window.addEventListener("load", changeColour, false);
+            }
+            else if (typeof (window.attachEvent) != "undefined") {
+                window.attachEvent("onload", changeColour);
+            }
+            else {
+                changeColour();
+            }
+        </script>
+
+    </form>
+</body>
+</html>

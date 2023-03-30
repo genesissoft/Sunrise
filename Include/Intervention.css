@@ -1,0 +1,245 @@
+
+.InterventionTableHeader
+{
+    background-image: url(../Images/Int_header_box.jpg);
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 100%;
+    border: 0;
+    text-align: center;
+    text-decoration: none; /*text-transform: capitalize;*/
+    display: inline;
+    vertical-align: middle;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1pt;
+    color: Black;
+}
+.ViewInterventionInnerTableHeader
+{
+    background-image: url(../Images/middelHeaderIntervention.gif);
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 100%;
+    border: 0;
+    text-align: center;
+    text-decoration: none;
+    height: 246px /*text-transform: capitalize;*/;
+   font-family: Verdana;
+    font-size: 4px;
+   
+    text-align: left;
+}
+.ViewInterventionForLabels
+{
+    
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    display: inline;
+    color: Black;
+}
+.ViewInterventionForControls
+{
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: normal;
+    text-decoration: none;
+    display: inline;
+    color: Black;
+}
+.InterventioninnerTableTemp
+{
+    background-color: #ECECEB;
+    font-family: Verdana;
+    font-size: 1px;
+    color: Black;
+}
+
+.InterventionTable
+{
+    background-color: #ECECEB;
+    border-bottom-style: solid;
+    border-bottom-color: #B3B3B4;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-color: #B3B3B4;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-color: #B3B3B4;
+    border-right-width: 1px;
+    text-align: center;
+    vertical-align: top;
+    border: 0;
+}
+.InterventionTempTable
+{
+    font-family: Verdana;
+    font-size: 1pt;
+    font-weight: normal;
+    text-decoration: none;
+    display: inline;
+    color: Black;
+}
+
+.InterventionAlternatingItemStyle
+{
+    background-color: #ECECEB;
+    border: 0px;
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.InterventionItemStyle
+{
+    background-color: #ECECEB;
+    border: 0px;
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.InterventionPagerStyle
+{
+    background-color: #ECECEB;
+    border: 0px;
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: normal;
+    color: Blue;
+    vertical-align: middle;
+}
+
+.InterventionHeaderStyle
+{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url(../Images/interventiongridheader.jpg);
+    cursor: hand;
+    position: relative;
+    color: Black;
+    height: 26px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.InterventionForLabels
+{
+    background-color: #ECECEB;
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    display: inline;
+    color: Black;
+}
+
+.InterventionForControls
+{
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: normal;
+    text-decoration: none;
+    display: inline;
+    color: Black;
+}
+.InterventionForButtons
+{
+    border-right: #c7b4b2 1px solid;
+    border-top: #c7b4b2 1px solid;
+    display: inline;
+    font-weight: normal;
+    font-size: 9pt;
+    background: transparent url(../Images/yellowbutton.jpg) fixed center center;
+    border-left: #c7b4b2 1px solid;
+    color: black;
+    border-bottom: #c7b4b2 1px solid;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+.InterventionForErrorMessages
+{
+    font-family: Verdana;
+    font-size: 7pt;
+    font-weight: normal;
+    text-decoration: none;
+    display: inline;
+    text-transform: capitalize;
+    color: red;
+}
+
+.InterventionForLinks
+{
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: underline;
+    display: inline;
+    text-transform: capitalize;
+    color: Blue;
+}
+.InterventionForDateLink
+{
+    font-family: Verdana;
+    font-size: 8pt;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: underline;
+    display: inline;
+    text-transform: capitalize;
+    color: Blue;
+}
+
+#newDiv a, #searchDiv a, #gridDiv a
+{
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: underline;
+    display: inline;
+    text-transform: capitalize;
+    color: Blue;
+}
+
+.ShowHeader
+{
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	table-layout: fixed;
+	background-color: #5D7B9D; /*background-image: url(../Images/interventiongridheader.jpg);*/
+	background-attachment: fixed;
+	color:White;
+	height: 18px;
+	border-width: 1px;
+	border-color:Black ;
+	text-align: center;
+	text-decoration: none;
+	top:expression(this.offsetParent.scrollTop); 
+}
+

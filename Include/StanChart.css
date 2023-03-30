@@ -1,0 +1,493 @@
+﻿.ButtonCSS
+{
+	/* 	font-size: 11px; 	font-weight: bold; 	color: #fff; 	padding: 1px 10px 1px 10px; 	background-color: #AAB08A; 	border: 1px solid #808000; /*background: transparent url(../Images/bg_trade_up.gif) fixed center center; 	background-color:#045FB4; 	font-family: Verdana; 	font-size:12px; 	border-style: none; 	color: White; 	font-weight: bold; 	cursor: hand; 	border-style:outset; 	border-color:black; 	border-width:1px;             */
+	border: 1px solid #25729a;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-family: arial, helvetica, sans-serif;
+	padding: 2px;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 11px;
+	background-color: #3093c7;
+		width: 75px;
+	background-image: linear-gradient(to bottom, #3093c7, #1c5a85);
+}
+
+.ButtonCSS:hover
+{
+	border: 1px solid #1c5675;
+	background-color: #26759e;
+	background-image: linear-gradient(to bottom, #26759e, #133d5b);
+	}
+
+
+.ButtonCSSCalc
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	padding: 1px 10px 1px 10px;
+	border: 1px solid #808000;
+}
+
+
+.HeaderCSS
+{
+	/*background-color: #045FB4;*/ /*66cc00   BBBB9C8*/ /*background-color:#5AE632;*/
+	background-color: #CCE3FF;
+	height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	color: #004B80 !important;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 13px;
+}
+
+
+.HeadingCSS
+{
+	height: 13px;
+	text-align: center;
+	vertical-align: middle;
+	color: Black;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+.SubHeaderCSS
+{
+	background-color: #CCE3FF; /*#98AFC7;*/ /*background-color:White;*/
+	height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	color: #004B80 !important;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 13px;
+}
+.MessageCSS
+{
+	font-family: Verdana;
+	font-style: normal;
+	color: #0B3861;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.TopImageCSS
+{
+	background-image: url(../Images/scbPageFrameworkImage02.gif);
+	height: 64px;
+}
+
+.SectionHeaderCSS
+{
+	/* 	font-family: Verdana; 	font-style: normal; 	color: Black; 	font-size: 14px; 	font-weight: bold; 	border-bottom-color: Gray; 	border-bottom-style: double; */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px !important;
+	font-weight: bold;
+	color: #004B80 !important;
+	text-decoration: none;
+	background-color:white;
+	text-align: left;
+	vertical-align:bottom;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #BFBFBF;
+	border-left-color: #FFFFFF;
+	height: 20px;
+}
+
+.SectionHeaderCSS11
+{
+	font-family: Verdana;
+	font-style: normal;
+	color: Black;
+	font-size: 11px;
+	font-weight: bold;
+	border-bottom-color: Gray;
+	border-bottom-style: double;
+}
+
+
+
+.SectionHeaderCSS1
+{
+	font-family: Verdana;
+	font-style: normal;
+	color: Black;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.LabelCSS
+{
+	/*font-family: Arial; 	font-size:12px; 	color:#000; 	padding:0px; 	margin:0px; 	text-align:left;*/
+	font-family: Verdana;
+	font-size: 11px;
+	text-align: left;
+	color: #000;
+}
+.LabelRightCSS
+{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+	text-align: Right;
+}
+.TextBoxCSS
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: #000000;
+	font-style: normal;
+	text-align: left;
+	font-family: Tahoma;
+	text-decoration: none;
+	width: 16em;
+	border: 1px solid #69A6B7;
+	background-color: White;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.GridTextBoxCSS
+{
+	font-family: Verdana;
+	font-size: 10px;
+	text-align: left;
+	color: #000;
+	border: 0px solid #69A6B7;
+	
+	
+}
+
+
+.TextBoxCSS:hover
+{
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,0.1) inset;
+}
+.TextBoxCSS:focus
+{
+	border: 1px solid #69A6B7;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.05) inset,0 0 8px rgba(82,168,236,0.6);
+}
+
+.MultiLineTextBoxCSS
+{
+	font-family: Verdana;
+	font-size: 12px;
+	padding: 0px;
+	border: 1px solid #BDBDBD;
+	height: 20px;
+	width: 40px;
+}
+.TextBoxRightCSS
+{
+	font-family: Arial;
+	font-size: 12px;
+	padding: 0px; /*border:1px solid #BDBDBD;*/
+	text-align: right;
+	background-color: #E0DBDB;
+}
+
+.TextBoxRightCSSWhite
+{
+	font-family: Arial;
+	font-size: 12px;
+	padding: 0px; /*border:1px solid #BDBDBD;*/
+	text-align: right;
+}
+
+.TextBoxCSSYieldCalc
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: #000000;
+	font-style: normal;
+	text-align: left;
+	font-family: Tahoma;
+	text-decoration: none;
+	width: 12em;
+	border: 1px solid #69A6B7;
+	background-color: White;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding: 3px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+.ComboBoxCSS
+{
+	/* 	padding-right: 0px; 	font-size: 12px; 	color: #C4CB9E; 	font-family: Arial; 	text-align:left; 	color:Black;*/
+	border: 1px solid #69A6B7;
+	font-family: Arial;
+	font-size: 11px;
+	padding: 2px;
+	width: 12.5em;
+	background-color: #F0F7FF;
+	color: Black;
+	border-radius: 3px;
+}
+
+.ComboBoxCSS:focus
+{
+	border: 1px solid #69A6B7;
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,0.1) inset;
+}
+
+
+
+.ComboBoxCSS1
+{
+	padding-right: 0px;
+	font-size: 10px;
+	color: #8fbaef;
+	font-family: Arial;
+	text-align: left;
+	color: Black;
+}
+
+.formcontent
+{
+	padding-right: 2px;
+	font-size: 8pt;
+	color: #AFDCEC;
+	font-family: Verdana;
+	text-align: right;
+}
+.GridCSS
+{
+	/*border-style: groove; 	border-width: medium; 	border-color: #8fbaef;*/
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #8FBAEF;
+	border-bottom-color: #8FBAEF;
+	border-left-color: #FFFFFF;
+}
+
+.GridCSS td, th
+{
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #8FBAEF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #8FBAEF;
+}
+
+.GridHeaderCSS
+{
+	/*background-color: #8fbaef; 	text-align: center; 	vertical-align: middle; 	color: Black; 	font-weight: bolder; 	font-family: Verdana; 	font-size: 11px; 	border-style: solid; 	border-width: 1px; 	border-color: Black; 	text-decoration: underline;*/
+	font-weight: bold;
+	color: #004B80 !important;
+	background-color: #CCE3FF;
+	text-decoration: none !important;
+}
+
+.GridHeaderCSS a:link
+{
+	color: #004B80;
+	text-decoration: none;
+}
+.GridHeaderCSS a:visited
+{
+	color: #004B80;
+	text-decoration: none;
+}
+.GridHeaderCSS a:active
+{
+	color: #004B80;
+	text-decoration: none;
+}
+
+
+.GridRowCSS
+{
+	text-align: left;
+	vertical-align: middle;
+	color: Black;
+	font-family: Verdana;
+	font-size: 11px;
+}
+
+
+
+.GridPagerCSS table td
+{
+	
+	border: 0px;
+}
+
+
+.SearchButtonCSS
+{
+	background-color: #8fbaef;
+	font-family: Verdana;
+	font-size: 11px;
+	color: Black;
+	font-weight: bold;
+	cursor: hand;
+	border-style: outset;
+}
+
+.SearchButtonCSS1
+{
+	background-color: #C0CDEF;
+	font-family: Verdana;
+	font-size: 11px;
+	color: Black;
+	font-weight: bold;
+	cursor: hand;
+	border-style: outset;
+}
+
+.Fontcss
+{
+	font-family: verdana, sans-serif;
+	color: #9E9D88;
+	font-size: 12px;
+}
+
+
+
+A:hover
+{
+	color: Red;
+}
+.SeperatorRowCSS
+{
+	height: 10px;
+}
+.SelectImageCSS
+{
+	height: 13px;
+	cursor: hand;
+}
+.InfoLinkCSS
+{
+	font-size: 8pt;
+	font-family: Verdana;
+}
+.MessageCSS
+{
+	font-family: Arial;
+	font-size: 11px;
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	color: Red;
+	text-decoration: none;
+}
+.CheckBoxCSS
+{
+	font-family: Arial;
+	font-size: 12px;
+	padding: 0px;
+}
+
+.MarqueeCSS
+{
+	font-family: Arial,Helvetica, sans-serif;
+	font-style: normal;
+	color: Red;
+	font-size: small;
+	height: 12px;
+}
+.masterpageformcontent
+{
+	font-family: Arial,Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	color: #9E9D88;
+	text-decoration: underline;
+}
+.SelectFieldsCSS
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: #000000;
+	font-style: normal;
+	text-align: left;
+	font-family: Tahoma;
+	text-decoration: none;
+	width: 12em;
+	border: 1px solid #69A6B7;
+	background-color: #C4CB9E;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.GrayText
+{
+	color: #7B7B7B;
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+.HeadingCenter
+{
+	font-weight: bold !important;
+	text-align: center !important;
+	vertical-align: middle !important;
+	color: #004B80 !important;
+	background-color:#CCE3FF;
+	/*border-bottom:1px solid #BFBFBF;
+	font-size:12px !important;*/
+}
+
+.table_border_none
+{
+	border-width:0px;
+	
+}
+
+.table_border_none table td
+{
+	border-width:0px;
+}
+.calender
+{
+	vertical-align: top;
+	height: 19px;
+	width: 17px;
+	border: 0px;
+}
+.hidden
+{
+	display: none;
+}

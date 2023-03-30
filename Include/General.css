@@ -1,0 +1,578 @@
+body
+{
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+.formcontent
+{
+	padding-right: 2px;
+	font-size: 8pt;
+	color: #000000;
+	font-family: Verdana;
+}
+.innerTable
+{
+	background-color: #EAF7FF;
+	text-align: center;
+	vertical-align: top;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: black;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: black;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 1px; /*border:0;*/
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+.formcontent
+{
+	padding-right: 2px;
+	font-size: 8pt;
+	color: #000000;
+	font-family: Verdana;
+}
+.innerTableHeader
+{
+	/*background-image:url(\aaproject\images\innerheader_02.jpg);*/ /*background-color: #EAF7FF;*/
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 100%;
+	height: 24px;
+	border: 0;
+	text-align: center;
+	text-decoration: none;
+	display: inline;
+	vertical-align: middle;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: Black;
+}
+
+.innerTableTemp
+{
+	background-color: White;
+	font-family: Verdana;
+	font-size: 1px;
+	color: Black;
+}
+
+.TopMenuInclude
+{
+	width: 100%;
+	height: 103px;
+	vertical-align: middle;
+}
+
+.LeftMenuInclude
+{
+	width: 170px;
+	height: 100%;
+	vertical-align: top;
+}
+
+.FooterInclude
+{
+	width: 100%;
+	height: 11px;
+	align: center;
+	vertical-align: top;
+}
+div#dbcomboNom, div#dbComboCat, div#dbComboPathologie, div#DbComboNoEtude, div#dbComboTypeIntervention, div#dbComboEnqueteur, div#dbComboSpec, div#dbComboLieu, div#dbComboNomduClient, div#myCmbville, div#dbComboProfession, div#dbComboFonction, div#DbComboCountry, div#dbcomboProfessionConj, div#dbComboLeader, div#dbComboAssociation
+{
+	vertical-align: top;
+	padding-top: 0px;
+}
+.tdwithBG
+{
+	font-size: 9pt;
+	color: #000080;
+	font-family: Verdana, Tahoma, 'MS Sans Serif' , Arial, Verdana;
+	letter-spacing: 1pt;
+	text-decoration: none;
+}
+
+.AlternatingItemStyle
+{
+	background-color: #EAF7FF;
+	border: 1px;
+	color: black;
+	font-family: Verdana;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.ItemStyle
+{
+	/*background-color: #EAF7FF; 	border: 1px; 	color: Black; 	font-family: Verdana; 	font-size: 10pt; 	font-weight: normal; 	text-decoration: none; 	vertical-align: middle;*/
+	background-color: #EAF7FF;
+	border-right: medium none;
+	border-top: medium none;
+	border-width: thick;
+	border-color: Blue;
+	padding-left: 10px;
+	font-size: 7pt;
+	border-left: medium none;
+	color: #000000;
+	border: 1px;
+	border-bottom: medium none;
+	font-family: Verdana;
+	height: 19px;
+}
+.PagerStyle
+{
+	background-color: #EAF7FF;
+	border: 0px;
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: normal;
+	color: Blue;
+	vertical-align: middle;
+}
+
+.HeaderStyle
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bolder;
+	table-layout: fixed;
+	background-color: #D1E4F8; /*background-image: url(../Images/interventiongridheader.jpg);*/
+	background-attachment: fixed;
+	cursor: hand;
+	color: #3E72AA;
+	height: 18px;
+	border-width: 1px;
+	border-color: #3E72AA;
+	text-align: center;
+	text-decoration: none;
+	top: expression(this.offsetParent.scrollTop);
+}
+
+.PlanningHeaderStyle
+{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	table-layout: fixed;
+	background-image: url(../Images/Int_header_box.jpg);
+	color: Black;
+	text-align: center;
+	text-decoration: none;
+}
+
+.ForLabels
+{
+	/*background-color: #EAF7FF;*/
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: normal;
+	text-align: Right;
+	text-decoration: none;
+	display: inline;
+	color: Black;
+}
+.ForTeleCallerLabels
+{
+	/*background-color: #EAF7FF;*/
+	font-family: Courier New;
+	font-size: 9pt;
+	font-weight: normal;
+	text-align: Right;
+	text-decoration: none;
+	display: inline;
+	color: Black;
+}
+.ForFeedBackLabels
+{
+	/*background-color: #EAF7FF;*/
+	font-family: Courier New;
+	font-size: 9pt;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	display: inline;
+	color: Black;
+}
+
+.ForFooter
+{
+	/*background-color: #EAF7FF;*/
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	display: inline;
+	color: Black;
+}
+
+.Grid
+{
+	border: 1;
+}
+.ForRoundTable
+{
+	background-color: #EAF7FF;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	display: inline;
+	color: Black;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #DFF1FD;
+}
+.ForTitleLables
+{
+	background-color: #EAF7FF;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	display: inline;
+	color: Black;
+}
+.ForIntervieweLabels
+{
+	background-color: #EAF7FF;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	display: inline;
+	color: Black;
+}
+.ForLabelImages
+{
+	background-color: #EAF7FF;
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	display: inline;
+	color: Black;
+}
+.ForLabelImages1
+{
+	background-color: #EAF7FF;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	display: inline;
+	color: Black;
+}
+.ForControls
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: none;
+	display: inline;
+	color: Black;
+}
+.ForFormViews
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: none;
+	display: inline;
+	color: blue;
+}
+
+
+
+.ForErrorMessages
+{
+	font-family: Verdana;
+	font-size: 7pt;
+	font-weight: normal;
+	text-decoration: none;
+	display: inline;
+	text-transform: capitalize;
+	color: red;
+}
+
+.ForLinks
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: underline;
+	display: inline;
+	text-transform: capitalize;
+	color: Blue;
+}
+.link
+{
+	border-right: medium none;
+	border-top: medium none;
+	font-size: 5pt;
+	border-left: medium none;
+	color: black;
+	border-bottom: medium none;
+	font-family: Verdana;
+	text-decoration: none;
+}
+A:visited
+{
+	border-right: medium none;
+	border-top: medium none;
+	font-size: 9pt;
+	border-left: medium none;
+	color: black;
+	border-bottom: medium none;
+	font-family: Verdana;
+	text-decoration: none;
+}
+A:hover
+{
+	border-top: medium none;
+	font-size: 9pt;
+	border-left: medium none;
+	color: red;
+	border-bottom: medium none;
+	font-family: Verdana;
+	text-decoration: none;
+}
+
+.ForDateLink
+{
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: underline;
+	display: inline;
+	text-transform: capitalize;
+	color: Blue;
+	cursor: hand;
+}
+.EnqueteurName
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: Black;
+}
+
+.ForHeaders
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: Black;
+}
+.ForButtons
+{
+	border-right: #c7b4b2 2px solid;
+	border-top: #c7b4b2 2px solid;
+	display: inline;
+	font-weight: normal;
+	font-size: 8pt;
+	background: transparent url(../Images/yellowbutton.jpg) fixed center center;
+	border-left: #c7b4b2 2px solid;
+	color: black;
+	border-bottom: #c7b4b2 2px solid;
+	font-family: Verdana;
+	text-decoration: none;
+	border-style: outset;
+}
+.ForLoginButton
+{
+	border-right: #c7b4b2 2px solid;
+	border-top: #c7b4b2 2px solid;
+	display: inline;
+	font-weight: normal;
+	font-size: 8pt;
+	background: transparent url(../Images/login_back.jpg) fixed center center;
+	border-left: #c7b4b2 2px solid;
+	color: black;
+	border-bottom: #c7b4b2 2px solid;
+	font-family: Verdana;
+	text-decoration: none;
+	border-style: outset;
+}
+
+.ForAddButtons
+{
+	border-right: #c7b4b2 1px solid;
+	border-top: #c7b4b2 1px solid;
+	display: inline;
+	font-weight: normal;
+	font-size: 9pt;
+	background: transparent url(../Images/ADD_BUTTON.jpg) fixed center center;
+	border-left: #c7b4b2 1px solid;
+	color: White;
+	border-bottom: #c7b4b2 1px solid;
+	font-family: Verdana;
+	text-decoration: none;
+}
+.blacktext1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+body
+{
+	scrollbar-arrow-color: #19304A;
+	scrollbar-base-color: #9CBBDE;
+	scrollbar-dark-shadow-color: #315F92;
+	scrollbar-track-color: #CFDEEF;
+	scrollbar-face-color: #9CBBDE;
+	scrollbar-shadow-color: #315F92;
+	scrollbar-highlight-color: #C9DEF6;
+	scrollbar-3d-light-color: #FFFFFF;
+}
+
+#AutoScrollContent
+{
+	position: absolute;
+	top: 4px;
+	left: 1px;
+	width: 303px;
+	visibility: visible;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	height: 249px;
+}
+
+
+.HeaderLinks
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	display: inline;
+	text-transform: capitalize;
+	color: black;
+}
+
+#newDiv a, #searchDiv a
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: underline;
+	display: inline;
+	text-transform: capitalize;
+	color: Blue;
+}
+
+.IntervieweForButtons
+{
+	border-right: #c7b4b2 1px solid;
+	border-top: #c7b4b2 1px solid;
+	display: inline;
+	font-weight: normal;
+	font-size: 9pt;
+	background: transparent url(../Images/patient_03.gif) fixed center center;
+	border-left: #c7b4b2 1px solid;
+	color: black;
+	border-bottom: #c7b4b2 1px solid;
+	font-family: Verdana;
+	text-decoration: none;
+	border-style: inset;
+}
+div#RadComboClient, div#RadComboNom, div#sd_NomPreNom, div#sd_PreNom, div#txtnoetude, div#txtSpecifiteEtude, div#txtcompanyName, div#txtNom, div#txtPrenom, div#RadComboNoStudy
+{
+	vertical-align: top;
+	padding-top: 0px;
+}
+.RootNode
+{
+	font-weight: normal;
+	font-size: 10pt;
+	padding-bottom: 0px;
+	color: Black;
+	padding-top: 0px;
+	font-style: normal;
+	font-family: Verdana;
+	text-align: left;
+	text-decoration: none;
+	background-color: Transparent;
+}
+.XLTable
+{
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: black;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: black;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.DataGridFixedHeader 
+{
+	background-color: #8fbaef;
+	text-align: center;
+	vertical-align: middle;
+	color:Black;
+	font-weight:bolder; 
+	font-family:Verdana;
+	font-size:11px;
+	border:1px solid red;
+	padding-left :0;
+	margin-left :0;
+	text-decoration: underline;
+	position:absolute  ; 
+	top: expression(this.offsetParent.scrollTop);
+	 
+ }
+.data_table td
+{
+	padding: 10px; /*font-size: 0.98em;*/
+	font-size: 5em;
+}
+ .button[disabled]{background-color:#FFF;} 

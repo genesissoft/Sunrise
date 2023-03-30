@@ -1,0 +1,106 @@
+﻿BODY
+{
+	font-size: 0.8em;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+.dpDiv
+{
+}
+.dpTable
+{
+	border-right: #aaaaaa 1px solid;
+	border-top: #aaaaaa 1px solid;
+	font-size: 12px;
+	border-left: #aaaaaa 1px solid;
+	color: #505050;
+	border-bottom: #aaaaaa 1px solid;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background-color: #ece9d8;
+	text-align: center;
+}
+.dpTR
+{
+}
+.dpTitleTR
+{
+}
+.dpDayTR
+{
+}
+.dpTodayButtonTR
+{
+}
+.dpTD
+{
+	border-right: #ece9d8 1px solid;
+	border-top: #ece9d8 1px solid;
+	border-left: #ece9d8 1px solid;
+	border-bottom: #ece9d8 1px solid;
+}
+.dpDayHighlightTD
+{
+	border-right: #aaaaaa 1px solid;
+	border-top: #aaaaaa 1px solid;
+	border-left: #aaaaaa 1px solid;
+	border-bottom: #aaaaaa 1px solid;
+	background-color: #cccccc;
+}
+.dpTDHover
+{
+	border-right: #888888 1px solid;
+	border-top: #888888 1px solid;
+	border-left: #888888 1px solid;
+	cursor: pointer;
+	color: red;
+	border-bottom: #888888 1px solid;
+	background-color: #aca998;
+}
+.dpTitleTD
+{
+}
+.dpButtonTD
+{
+}
+.dpTodayButtonTD
+{
+}
+.dpDayTD
+{
+	border-right: #aaaaaa 1px solid;
+	border-top: #aaaaaa 1px solid;
+	border-left: #aaaaaa 1px solid;
+	color: white;
+	border-bottom: #aaaaaa 1px solid;
+	background-color: #cccccc;
+}
+.dpTitleText
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: gray;
+}
+.dpDayHighlight
+{
+	font-weight: bold;
+	color: #4060ff;
+}
+.dpButton
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-weight: bold;
+	font-size: 10px;
+	background: #d8e8ff;
+	padding-bottom: 0px;
+	color: gray;
+	padding-top: 0px;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+.dpTodayButton
+{
+	font-weight: bold;
+	font-size: 10px;
+	background: #d8e8ff;
+	color: gray;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}

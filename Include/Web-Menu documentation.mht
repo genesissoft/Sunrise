@@ -1,0 +1,928 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: Web-Menu
+Date: Sun, 8 May 2005 14:26:41 +0400
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0000_01C553D9.F3BFD050";
+	type="text/html"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C553D9.F3BFD050
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://dxbafpww04/raD/webform2.aspx
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Web-Menu</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<META content=3D"MSHTML 6.00.2800.1492" name=3DGENERATOR>
+<META content=3DC# name=3DCODE_LANGUAGE>
+<META content=3DJavaScript name=3Dvs_defaultClientScript>
+<META content=3Dhttp://schemas.microsoft.com/intellisense/ie5=20
+name=3Dvs_targetSchema><!--Need to include this file for menu =
+style--><LINK=20
+href=3D"http://dxbafpww04/raD/css/menu.css" type=3Dtext/css =
+rel=3Dstylesheet><!-- files with geometry and styles structures -->
+<SCRIPT language=3DJavaScript =
+src=3D"http://dxbafpww04/raD/menu.js"></SCRIPT>
+<!-- files with geometry and styles structures -->
+<SCRIPT language=3DJavaScript =
+src=3D"http://dxbafpww04/raD/menu_tpl.js"></SCRIPT>
+</HEAD>
+<BODY MS_POSITIONING=3D"GridLayout">
+<FORM id=3DForm1 name=3DForm1 action=3Dwebform2.aspx =
+method=3Dpost><INPUT type=3Dhidden=20
+value=3DdDwtMTM5OTU5MTY3ODs7PliVEF8NRYv+4e194nq/u9rozg0f =
+name=3D__VIEWSTATE>=20
+<H2>Sample Web Menu Demo</H2><!-- Simple web menu demo with XML menu =
+path as datasource.=20
+			Ways of Binding Menu Items dynamically...
+			Method 1 :
+				Set	"MenuXMLPath" property with the path of the xml menu file in the =
+server.
+			Method 2 :=20
+				Create new DataSet with the XML file and Bind to the web menu =
+control
+				e.g.	DataSet dsMenu =3D new DataSet();
+						dsMenu.ReadXml(@"\\dxbafpww04\rad\menudata.xml");
+						WebMenu1.DataSource =3D dsMenu;
+			Method 3 :=20
+				Get the Menu data from database and populate in the DataSet with =
+following structure
+				Column 1 : name (Name of the menu item)
+				Column 2 : root (Parent of the menu item. If the item is the =
+starting parent item then root will be "") 			=09
+				Column 3 : url  (URL for the menu item)
+			--><IMG src=3D"http://dxbafpww04/raD/images/webmenu.jpg" border=3D0> =
+<!--
+			Other samples
+			=
+//***********************************************************************=
+*************************************************************************=
+**************
+			<script language=3D'javascript'>var MENU_ITEMS =3D [
+['Search Sites&nbsp;<img src=3Dimages\\arrow.gif border=3D0', null, =
+null,
+['Google','http://www.google.com'],
+['Altavista','http://www.Altavista.com'],],
+
+
+['Webmail Sites&nbsp;<img src=3Dimages\\arrow.gif border=3D0', null, =
+null,
+['Hot-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;<img src=3Dimages\\arrow.gif border=3D0', null, =
+null,
+['Hotmail','http://www.hotmail.com'],
+['MSN','http://www.MSN.com'],],
+
+
+['Yahoo','http://www.yahoo.com'],
+['Rediff','http://www.rediff.com'],],
+
+
+['DotNet Sites&nbsp;<img src=3Dimages\\arrow.gif border=3D0', null, =
+null,
+['Microsoft','http://www.Microsoft.com'],
+['GotDotNet','http://www.GotDotNet.com'],
+['CodeProject','http://www.CodeProject.com'],
+['ASpdotnet','http://www.ASpdotnet.com'],],
+
+];new menu (MENU_ITEMS, MENU_POS);</script>
+			<script language=3D'javascript'>var MENU_ITEMS =3D [
+['Search Sites&nbsp;', null, null,
+['Google','http://www.google.com'],
+['Altavista','http://www.Altavista.com'],],
+
+
+['Webmail Sites&nbsp;', null, null,
+['Hot-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', null, null,
+['Hotmail','http://www.hotmail.com'],
+['MSN','http://www.MSN.com'],],
+
+
+['Yahoo','http://www.yahoo.com'],
+['Rediff','http://www.rediff.com'],],
+
+
+['DotNet Sites&nbsp;', null, null,
+['Microsoft','http://www.Microsoft.com'],
+['GotDotNet','http://www.GotDotNet.com'],
+['CodeProject','http://www.CodeProject.com'],
+['ASpdotnet','http://www.ASpdotnet.com'],],
+
+];new menu (MENU_ITEMS, MENU_POS);</script>
+			--><B><BR><BR>Steps to setup webmenu. </B><BR>&nbsp;&nbsp; Step 1 : =
+Right=20
+click toolbox; Choose 'Add/Remove items' and Add the =
+SuperControl.WebMenu.dll=20
+reference<BR>&nbsp;&nbsp; Step 2 : Copy JS files menu_tpl.js and menu.js =
+to the=20
+root directory of the site.<BR>&nbsp;&nbsp; Step 3 : Copy menu style =
+sheet=20
+menu.css file to subdirectory "css"<BR>&nbsp;&nbsp; Step 4 : Copy =
+menudata.xml=20
+to the root directory <BR>&nbsp;&nbsp; Step 5 : Create an ASPX file and =
+drag and=20
+drop the webmenu control to the webform and use one of the methods(Given =
+below)=20
+to Bind XML/dynamic data to the menu control<BR><BR><B>ASPX Code : =
+</B><PRE>&lt;cc1:WebMenu id=3D"WebMenu1" =
+MenuXMLPath=3D"\\dxbafpww04\rad\menudata.xml" PadWidth=3D"24" =
+runat=3D"server"&gt;&lt;/cc1:WebMenu&gt;
+&lt;!--
+Other samples
+//***********************************************************************=
+*************************************************************************=
+**************
+&lt;cc1:WebMenu id=3D"WebMenu2" =
+MenuXMLPath=3D"\\dxbafpww04\rad\menudata.xml" ImageArrow=3D"&lt;img =
+src=3Dimages\\arrow.gif border=3D0" PadWidth=3D"22" =
+runat=3D"server"&gt;&lt;/cc1:WebMenu&gt;
+&lt;cc1:WebMenu id=3D"WebMenu3" =
+MenuXMLPath=3D"\\dxbafpww04\rad\menudata.xml" ImageArrow=3D"" =
+PadWidth=3D"26" runat=3D"server"&gt;&lt;/cc1:WebMenu&gt;
+--&gt;</PRE><B>Ways of Binding Menu Items dynamically...</B> <PRE>Method =
+1 :
+	Set	"MenuXMLPath" property with the path of the xml menu file in the =
+server.
+Method 2 :=20
+	Create new DataSet with the XML file and Bind to the web menu control
+	e.g.	DataSet dsMenu =3D new DataSet();
+			dsMenu.ReadXml(@"\\dxbafpww04\rad\menudata.xml");
+			WebMenu1.DataSource =3D dsMenu;
+Method 3 :=20
+	Get the Menu data from database and populate in the DataSet with =
+following structure
+	Column 1 : menuid (unique id of menu item)
+	Column 2 : name (Name of the menu item)
+	Column 3 : root (Parent of the menu item. If it is starting/root item =
+then root value will be "" else it will be the value of parent menuid.) 	=
+		=09
+	Column 4 : url  (URL for the menu item)</PRE><B>XML Menu used =
+(Sample)</B> <PRE>&lt;?xml version=3D"1.0" encoding=3D"utf-8" ?&gt;=20
+&lt;menu&gt;
+	'Level 0 nodes
+	&lt;menuitem root=3D"" name=3D"Search Sites" menuid=3D"1" /&gt;
+	&lt;menuitem root=3D"" name=3D"Webmail Sites"  menuid=3D"2" /&gt;
+	&lt;menuitem root=3D"" name=3D"DotNet Sites"  menuid=3D"3" /&gt;
+=09
+	'Level 1 Items
+	&lt;menuitem root=3D"1" name=3D"Google" url=3D"http://www.google.com"  =
+menuid=3D"11"/&gt;
+	&lt;menuitem root=3D"1" name=3D"Altavista" =
+url=3D"http://www.Altavista.com"  menuid=3D"12"/&gt;
+=09
+	'Level 1 Items
+	&lt;menuitem root=3D"2" name=3D"Hot-mail" url=3D""  menuid=3D"21"/&gt;
+		'Level 2 Items
+		&lt;menuitem root=3D"21" name=3D"Hotmail" =
+url=3D"http://www.hotmail.com"  menuid=3D"211"/&gt;
+		&lt;menuitem root=3D"21" name=3D"MSN" url=3D"http://www.MSN.com"  =
+menuid=3D"212"/&gt;
+	=09
+	&lt;menuitem root=3D"2" name=3D"Yahoo" url=3D"http://www.yahoo.com"  =
+menuid=3D"22"/&gt;
+	&lt;menuitem root=3D"2" name=3D"Rediff" url=3D"http://www.rediff.com"  =
+menuid=3D"23"/&gt;
+=09
+	'Level 1 Items
+	&lt;menuitem root=3D"3" name=3D"Microsoft" =
+url=3D"http://www.Microsoft.com"  menuid=3D"31"/&gt;
+	&lt;menuitem root=3D"3" name=3D"GotDotNet" =
+url=3D"http://www.GotDotNet.com"  menuid=3D"32"/&gt;
+	&lt;menuitem root=3D"3" name=3D"CodeProject" =
+url=3D"http://www.CodeProject.com"  menuid=3D"33"/&gt;
+	&lt;menuitem root=3D"3" name=3D"ASpdotnet" =
+url=3D"http://www.ASpdotnet.com"  menuid=3D"34"/&gt;
+=09
+&lt;/menu&gt;
+</PRE><B>Sample dynamic Menu DataSet(with one DataTable)</B>=20
+<TABLE id=3DDataGrid1 style=3D"BORDER-COLLAPSE: collapse" =
+cellSpacing=3D0 rules=3Dall=20
+border=3D1>
+  <TBODY>
+  <TR>
+    <TD>root</TD>
+    <TD>name</TD>
+    <TD>menuid</TD>
+    <TD>url</TD></TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD>Search Sites</TD>
+    <TD>1</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD>Webmail Sites</TD>
+    <TD>2</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD>DotNet Sites</TD>
+    <TD>3</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD>1</TD>
+    <TD>Google</TD>
+    <TD>11</TD>
+    <TD>http://www.google.com</TD></TR>
+  <TR>
+    <TD>1</TD>
+    <TD>Altavista</TD>
+    <TD>12</TD>
+    <TD>http://www.Altavista.com</TD></TR>
+  <TR>
+    <TD>2</TD>
+    <TD>Hot-mail</TD>
+    <TD>21</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD>21</TD>
+    <TD>Hotmail</TD>
+    <TD>211</TD>
+    <TD>http://www.hotmail.com</TD></TR>
+  <TR>
+    <TD>21</TD>
+    <TD>MSN</TD>
+    <TD>212</TD>
+    <TD>http://www.MSN.com</TD></TR>
+  <TR>
+    <TD>2</TD>
+    <TD>Yahoo</TD>
+    <TD>22</TD>
+    <TD>http://www.yahoo.com</TD></TR>
+  <TR>
+    <TD>2</TD>
+    <TD>Rediff</TD>
+    <TD>23</TD>
+    <TD>http://www.rediff.com</TD></TR>
+  <TR>
+    <TD>3</TD>
+    <TD>Microsoft</TD>
+    <TD>31</TD>
+    <TD>http://www.Microsoft.com</TD></TR>
+  <TR>
+    <TD>3</TD>
+    <TD>GotDotNet</TD>
+    <TD>32</TD>
+    <TD>http://www.GotDotNet.com</TD></TR>
+  <TR>
+    <TD>3</TD>
+    <TD>CodeProject</TD>
+    <TD>33</TD>
+    <TD>http://www.CodeProject.com</TD></TR>
+  <TR>
+    <TD>3</TD>
+    <TD>ASpdotnet</TD>
+    <TD>34</TD>
+    =
+<TD>http://www.ASpdotnet.com</TD></TR></TBODY></TABLE></FORM></BODY></HTM=
+L>
+
+------=_NextPart_000_0000_01C553D9.F3BFD050
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://dxbafpww04/raD/images/webmenu.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABcAZsDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1D/ha
+Pg3/AKDH/krN/wDEUf8AC0fBv/QY/wDJWb/4ivAtF0S51y5nit3iiS3t3uZ5piQscaDljgEnqBgA
+nmiPQdSurmaHT7WXURDtLSWUbSrhhlTwMjI7EAjBBAIIHN7afY+oeT4RNpzenmv8j33/AIWj4N/6
+DH/krN/8RR/wtHwb/wBBj/yVm/8AiK+fLfSdSu7OW8ttPu5rWLPmTxwsyJgZOWAwMDmnromrOiuu
+l3rKyxupFu5BWQ4jI46MeB6npR7afYP7Gwi+2/vX+R9Af8LR8G/9Bj/yVm/+Io/4Wj4N/wCgx/5K
+zf8AxFeL2PgfVrvS9WuHtL2G8sVgeOya0fzJ1kdlyBwQBtJ6HoemKwYtPu5tTTTUgcXjzCAQv8jC
+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
+/9k=
+
+------=_NextPart_000_0000_01C553D9.F3BFD050
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://dxbafpww04/raD/css/menu.css
+
+.m0l0iout {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: =
+10px; PADDING-BOTTOM: 4px; COLOR: white; PADDING-TOP: 4px; FONT-FAMILY: =
+verdana,Arial, Helvetica; TEXT-DECORATION: none
+}
+.m0l0iover {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; FONT: bold =
+10px Verdana, Geneva, Arial, Helvetica, sans-serif; COLOR: white; =
+PADDING-TOP: 4px; TEXT-DECORATION: none
+}
+.m0l0oout {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; =
+BACKGROUND: #ad1021; BORDER-LEFT: #ffffff 0px solid; BORDER-BOTTOM: =
+#ffffff 0px solid; TEXT-DECORATION: none
+}
+.m0l0oover {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; =
+BACKGROUND: #ad1021; BORDER-LEFT: #ffffff 0px solid; BORDER-BOTTOM: =
+#ffffff 0px solid; TEXT-DECORATION: none
+}
+.m0l1iout {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; FONT: 10px =
+Verdana, Geneva, Arial, Helvetica, sans-serif; COLOR: #ffffff; =
+PADDING-TOP: 4px; TEXT-DECORATION: none
+}
+.m0l1iover {
+	BORDER-RIGHT: #ffffff 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: =
+#ffffff 0px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; FONT: 10px =
+Verdana, Geneva, Arial, Helvetica, sans-serif; BORDER-LEFT: #ffffff 0px =
+solid; COLOR: #ffffff; PADDING-TOP: 4px; BORDER-BOTTOM: #ffffff 0px =
+solid; TEXT-DECORATION: none
+}
+.m0l1oout {
+	BORDER-RIGHT: #a7a694 1px solid; BORDER-TOP: #a7a694 1px solid; =
+BACKGROUND: #ad1021; BORDER-LEFT: #a7a694 1px solid; BORDER-BOTTOM: =
+#a7a694 1px solid; TEXT-DECORATION: none
+}
+.m0l1oover {
+	BORDER-RIGHT: #a7a694 1px solid; BORDER-TOP: #a7a694 1px solid; =
+BACKGROUND: #afa370; BORDER-LEFT: #a7a694 1px solid; BORDER-BOTTOM: =
+#a7a694 1px solid; TEXT-DECORATION: none
+}
+
+------=_NextPart_000_0000_01C553D9.F3BFD050
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://dxbafpww04/raD/menu.js
+
+// Title: tigra menu=0A=
+// Description: See the demo at url=0A=
+// URL: http://www.softcomplex.com/products/tigra_menu/=0A=
+// Version: 2.0 (commented source)=0A=
+// Date: 04-05-2003 (mm-dd-yyyy)=0A=
+// Tech. Support: =
+http://www.softcomplex.com/forum/forumdisplay.php?fid=3D40=0A=
+// Notes: This script is free. Visit official site for further details.=0A=
+=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+// global collection containing all menus on current page=0A=
+var A_MENUS =3D [];=0A=
+=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+// menu class=0A=
+function menu (a_items, a_tpl) {=0A=
+=0A=
+	// browser check=0A=
+	if (!document.body || !document.body.style)=0A=
+		return;=0A=
+=0A=
+	// store items structure=0A=
+	this.a_config =3D a_items;=0A=
+=0A=
+	// store template structure=0A=
+	this.a_tpl =3D a_tpl;=0A=
+=0A=
+	// get menu id=0A=
+	this.n_id =3D A_MENUS.length;=0A=
+=0A=
+	// declare collections=0A=
+	this.a_index =3D [];=0A=
+	this.a_children =3D [];=0A=
+=0A=
+	// assigh methods and event handlers=0A=
+	this.expand      =3D menu_expand;=0A=
+	this.collapse    =3D menu_collapse;=0A=
+=0A=
+	this.onclick     =3D menu_onclick;=0A=
+	this.onmouseout  =3D menu_onmouseout;=0A=
+	this.onmouseover =3D menu_onmouseover;=0A=
+	this.onmousedown =3D menu_onmousedown;=0A=
+=0A=
+	// default level scope description structure =0A=
+	this.a_tpl_def =3D {=0A=
+		'block_top'  : 16,=0A=
+		'block_left' : 16,=0A=
+		'top'        : 20,=0A=
+		'left'       : 4,=0A=
+		'width'      : 120,=0A=
+		'height'     : 22,=0A=
+		'hide_delay' : 0,=0A=
+		'expd_delay' : 0,=0A=
+		'css'        : {=0A=
+			'inner' : '',=0A=
+			'outer' : ''=0A=
+		}=0A=
+	};=0A=
+	=0A=
+	// assign methods and properties required to imulate parent item=0A=
+	this.getprop =3D function (s_key) {=0A=
+		return this.a_tpl_def[s_key];=0A=
+	};=0A=
+=0A=
+	this.o_root =3D this;=0A=
+	this.n_depth =3D -1;=0A=
+	this.n_x =3D 0;=0A=
+	this.n_y =3D 0;=0A=
+=0A=
+	// 	init items recursively=0A=
+	for (n_order =3D 0; n_order < a_items.length; n_order++)=0A=
+		new menu_item(this, n_order);=0A=
+=0A=
+	// register self in global collection=0A=
+	A_MENUS[this.n_id] =3D this;=0A=
+=0A=
+	// make root level visible=0A=
+	for (var n_order =3D 0; n_order < this.a_children.length; n_order++)=0A=
+		this.a_children[n_order].e_oelement.style.visibility =3D 'visible';=0A=
+}=0A=
+=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+function menu_collapse (n_id) {=0A=
+	// cancel item open delay=0A=
+	clearTimeout(this.o_showtimer);=0A=
+=0A=
+	// by default collapse to root level=0A=
+	var n_tolevel =3D (n_id ? this.a_index[n_id].n_depth : 0);=0A=
+	=0A=
+	// hide all items over the level specified=0A=
+	for (n_id =3D 0; n_id < this.a_index.length; n_id++) {=0A=
+		var o_curritem =3D this.a_index[n_id];=0A=
+		if (o_curritem.n_depth > n_tolevel && o_curritem.b_visible) {=0A=
+			o_curritem.e_oelement.style.visibility =3D 'hidden';=0A=
+			o_curritem.b_visible =3D false;=0A=
+		}=0A=
+	}=0A=
+=0A=
+	// reset current item if mouse has gone out of items=0A=
+	if (!n_id)=0A=
+		this.o_current =3D null;=0A=
+}=0A=
+=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+function menu_expand (n_id) {=0A=
+=0A=
+	// expand only when mouse is over some menu item=0A=
+	if (this.o_hidetimer)=0A=
+		return;=0A=
+=0A=
+	// lookup current item=0A=
+	var o_item =3D this.a_index[n_id];=0A=
+=0A=
+	// close previously opened items=0A=
+	if (this.o_current && this.o_current.n_depth >=3D o_item.n_depth)=0A=
+		this.collapse(o_item.n_id);=0A=
+	this.o_current =3D o_item;=0A=
+=0A=
+	// exit if there are no children to open=0A=
+	if (!o_item.a_children)=0A=
+		return;=0A=
+=0A=
+	// show direct child items=0A=
+	for (var n_order =3D 0; n_order < o_item.a_children.length; n_order++) {=0A=
+		var o_curritem =3D o_item.a_children[n_order];=0A=
+		o_curritem.e_oelement.style.visibility =3D 'visible';=0A=
+		o_curritem.b_visible =3D true;=0A=
+	}=0A=
+}=0A=
+=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+//=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+function menu_onclick (n_id) {=0A=
+	// don't go anywhere if item has no link defined=0A=
+	return Boolean(this.a_index[n_id].a_config[1]);=0A=
+}=0A=
+=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+function menu_onmouseout (n_id) {=0A=
+=0A=
+	// lookup new item's object	=0A=
+	var o_item =3D this.a_index[n_id];=0A=
+=0A=
+	// apply rollout=0A=
+	o_item.e_oelement.className =3D o_item.getstyle(0, 0);=0A=
+	o_item.e_ielement.className =3D o_item.getstyle(1, 0);=0A=
+	=0A=
+	// update status line	=0A=
+	o_item.upstatus(7);=0A=
+=0A=
+	// run mouseover timer=0A=
+	this.o_hidetimer =3D setTimeout('A_MENUS['+ this.n_id +'].collapse();',=0A=
+		o_item.getprop('hide_delay'));=0A=
+}=0A=
+=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+function menu_onmouseover (n_id) {=0A=
+=0A=
+	// cancel mouseoute menu close and item open delay=0A=
+	clearTimeout(this.o_hidetimer);=0A=
+	this.o_hidetimer =3D null;=0A=
+	clearTimeout(this.o_showtimer);=0A=
+=0A=
+	// lookup new item's object	=0A=
+	var o_item =3D this.a_index[n_id];=0A=
+=0A=
+	// update status line	=0A=
+	o_item.upstatus();=0A=
+=0A=
+	// apply rollover=0A=
+	o_item.e_oelement.className =3D o_item.getstyle(0, 1);=0A=
+	o_item.e_ielement.className =3D o_item.getstyle(1, 1);=0A=
+	=0A=
+	// if onclick open is set then no more actions required=0A=
+	if (o_item.getprop('expd_delay') < 0)=0A=
+		return;=0A=
+=0A=
+	// run expand timer=0A=
+	this.o_showtimer =3D setTimeout('A_MENUS['+ this.n_id +'].expand(' + =
+n_id + ');',=0A=
+		o_item.getprop('expd_delay'));=0A=
+=0A=
+}=0A=
+=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+// called when mouse button is pressed on menu item=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+function menu_onmousedown (n_id) {=0A=
+	=0A=
+	// lookup new item's object	=0A=
+	var o_item =3D this.a_index[n_id];=0A=
+=0A=
+	// apply mouse down style=0A=
+	o_item.e_oelement.className =3D o_item.getstyle(0, 2);=0A=
+	o_item.e_ielement.className =3D o_item.getstyle(1, 2);=0A=
+=0A=
+	this.expand(n_id);=0A=
+//	this.items[id].switch_style('onmousedown');=0A=
+}=0A=
+=0A=
+=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+// menu item Class=0A=
+function menu_item (o_parent, n_order) {=0A=
+=0A=
+	// store parameters passed to the constructor=0A=
+	this.n_depth  =3D o_parent.n_depth + 1;=0A=
+	this.a_config =3D o_parent.a_config[n_order + (this.n_depth ? 3 : 0)];=0A=
+=0A=
+	// return if required parameters are missing=0A=
+	if (!this.a_config) return;=0A=
+=0A=
+	// store info from parent item=0A=
+	this.o_root    =3D o_parent.o_root;=0A=
+	this.o_parent  =3D o_parent;=0A=
+	this.n_order   =3D n_order;=0A=
+=0A=
+	// register in global and parent's collections=0A=
+	this.n_id =3D this.o_root.a_index.length;=0A=
+	this.o_root.a_index[this.n_id] =3D this;=0A=
+	o_parent.a_children[n_order] =3D this;=0A=
+=0A=
+	// calculate item's coordinates=0A=
+	var o_root =3D this.o_root,=0A=
+		a_tpl  =3D this.o_root.a_tpl;=0A=
+=0A=
+	// assign methods=0A=
+	this.getprop  =3D mitem_getprop;=0A=
+	this.getstyle =3D mitem_getstyle;=0A=
+	this.upstatus =3D mitem_upstatus;=0A=
+=0A=
+	this.n_x =3D n_order=0A=
+		? o_parent.a_children[n_order - 1].n_x + this.getprop('left')=0A=
+		: o_parent.n_x + this.getprop('block_left');=0A=
+=0A=
+	this.n_y =3D n_order=0A=
+		? o_parent.a_children[n_order - 1].n_y + this.getprop('top')=0A=
+		: o_parent.n_y + this.getprop('block_top');=0A=
+=0A=
+	// generate item's HMTL=0A=
+	document.write (=0A=
+		'<a id=3D"e' + o_root.n_id + '_'=0A=
+			+ this.n_id +'o" class=3D"' + this.getstyle(0, 0) + '" href=3D"' + =
+this.a_config[1] + '"'=0A=
+			+ (this.a_config[2] && this.a_config[2]['tw'] ? ' target=3D"'=0A=
+			+ this.a_config[2]['tw'] + '"' : '') + ' style=3D"position: absolute; =
+top: '=0A=
+			+ this.n_y + 'px; left: ' + this.n_x + 'px; width: '=0A=
+			+ this.getprop('width') + 'px; height: '=0A=
+			+ this.getprop('height') + 'px; visibility: hidden;'=0A=
+			+' z-index: ' + this.n_depth + ';" '=0A=
+			+ 'onclick=3D"return A_MENUS[' + o_root.n_id + '].onclick('=0A=
+			+ this.n_id + ');" onmouseout=3D"A_MENUS[' + o_root.n_id + =
+'].onmouseout('=0A=
+			+ this.n_id + ');" onmouseover=3D"A_MENUS[' + o_root.n_id + =
+'].onmouseover('=0A=
+			+ this.n_id + ');" onmousedown=3D"A_MENUS[' + o_root.n_id + =
+'].onmousedown('=0A=
+			+ this.n_id + ');"><div  id=3D"e' + o_root.n_id + '_'=0A=
+			+ this.n_id +'i" class=3D"' + this.getstyle(1, 0) + '">'=0A=
+			+ this.a_config[0] + "</div></a>\n"=0A=
+		);=0A=
+	this.e_ielement =3D document.getElementById('e' + o_root.n_id + '_' + =
+this.n_id + 'i');=0A=
+	this.e_oelement =3D document.getElementById('e' + o_root.n_id + '_' + =
+this.n_id + 'o');=0A=
+=0A=
+	this.b_visible =3D !this.n_depth;=0A=
+=0A=
+	// no more initialization if leaf=0A=
+	if (this.a_config.length < 4)=0A=
+		return;=0A=
+=0A=
+	// node specific methods and properties=0A=
+	this.a_children =3D [];=0A=
+=0A=
+	// init downline recursively=0A=
+	for (var n_order =3D 0; n_order < this.a_config.length - 3; n_order++)=0A=
+		new menu_item(this, n_order);=0A=
+}=0A=
+=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+// reads property from template file, inherits from parent level if not =
+found=0A=
+// =
+-------------------------------------------------------------------------=
+-----------------=0A=
+function mitem_getprop (s_key) {=0A=
+=0A=
+	// check if value is defined for current level=0A=
+	var s_value =3D null,=0A=
+		a_level =3D this.o_root.a_tpl[this.n_depth];=0A=
+=0A=
+	// return value if explicitly defined=0A=
+	if (a_level)=0A=
+		s_value =3D a_level[s_key];=0A=
+=0A=
+	// request recursively from parent levels if not defined=0A=
+	return (s_value =3D=3D null ? this.o_parent.getprop(s_key) : s_value);=0A=
+}=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+// reads property from template file, inherits from parent level if not =
+found=0A=
+// =
+-------------------------------------------------------------------------=
+-----------------=0A=
+function mitem_getstyle (n_pos, n_state) {=0A=
+=0A=
+	var a_css =3D this.getprop('css');=0A=
+	var a_oclass =3D a_css[n_pos ? 'inner' : 'outer'];=0A=
+=0A=
+	// same class for all states	=0A=
+	if (typeof(a_oclass) =3D=3D 'string')=0A=
+		return a_oclass;=0A=
+=0A=
+	// inherit class from previous state if not explicitly defined=0A=
+	for (var n_currst =3D n_state; n_currst >=3D 0; n_currst--)=0A=
+		if (a_oclass[n_currst])=0A=
+			return a_oclass[n_currst];=0A=
+}=0A=
+=0A=
+// =
+-------------------------------------------------------------------------=
+-----------------=0A=
+// updates status bar message of the browser=0A=
+// =
+-------------------------------------------------------------------------=
+-----------------=0A=
+function mitem_upstatus (b_clear) {=0A=
+	window.setTimeout("window.status=3Dunescape('" + (b_clear=0A=
+		? ''=0A=
+		: (this.a_config[2] && this.a_config[2]['sb']=0A=
+			? escape(this.a_config[2]['sb'])=0A=
+			: escape(this.a_config[0]) + (this.a_config[1]=0A=
+				? ' ('+ escape(this.a_config[1]) + ')'=0A=
+				: ''))) + "')", 10);=0A=
+}=0A=
+=0A=
+// =
+-------------------------------------------------------------------------=
+-------=0A=
+// that's all folks=0A=
+
+------=_NextPart_000_0000_01C553D9.F3BFD050
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://dxbafpww04/raD/menu_tpl.js
+
+/*=0A=
+  --- menu level scope settings structure --- =0A=
+  note that this structure has changed its format since previous version.=0A=
+  Now this structure has the same layout as Tigra Menu GOLD.=0A=
+  Format description can be found in product documentation.=0A=
+*/=0A=
+var MENU_POS =3D [=0A=
+{=0A=
+	// item sizes=0A=
+	'height': 24,=0A=
+	'width': 120,=0A=
+	// menu block offset from the origin:=0A=
+	//	for root level origin is upper left corner of the page=0A=
+	//	for other levels origin is upper left corner of parent item=0A=
+	'block_top': 48,=0A=
+	'block_left': 0,=0A=
+	// offsets between items of the same level=0A=
+	'top': 0,=0A=
+	'left': 119,=0A=
+	// time in milliseconds before menu is hidden after cursor has gone out=0A=
+	// of any items=0A=
+	'hide_delay': 200,=0A=
+	'expd_delay': 200,=0A=
+	'css' : {=0A=
+		'outer': ['m0l0oout', 'm0l0oover'],=0A=
+		'inner': ['m0l0iout', 'm0l0iover']=0A=
+	}=0A=
+},=0A=
+{=0A=
+	'height': 20,=0A=
+	'width': 150,=0A=
+	'block_top': 23,=0A=
+	'block_left': 0,=0A=
+	'top': 20,=0A=
+	'left': 0,=0A=
+	'css': {=0A=
+		'outer' : ['m0l1oout', 'm0l1oover'],=0A=
+		'inner' : ['m0l1iout', 'm0l1iover']=0A=
+	}=0A=
+},=0A=
+{=0A=
+	'block_top': 5,=0A=
+	'block_left': 140,=0A=
+	'css': {=0A=
+		'outer': ['m0l1oout', 'm0l1oover'],=0A=
+		'inner': ['m0l1iout', 'm0l1iover']=0A=
+	}=0A=
+}=0A=
+]=0A=
+
+------=_NextPart_000_0000_01C553D9.F3BFD050--

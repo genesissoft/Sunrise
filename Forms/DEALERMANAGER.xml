@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <menuitem MenuId="1" Root="" Name="System                                            " Url="" UserAccess="e" />
+  <menuitem MenuId="2" Root="" Name="Master                                            " Url="" UserAccess="e" />
+  <menuitem MenuId="3" Root="" Name="Entry                                             " Url="" UserAccess="e" />
+  <menuitem MenuId="4" Root="" Name=" Daily Reports                                    " Url="" UserAccess="e" />
+  <menuitem MenuId="6" Root="" Name="Utilities                                         " Url="" UserAccess="e" />
+  <menuitem MenuId="31" Root="24" Name="Client Profile Master                             " Url="ClientProfileDetail.aspx" UserAccess="e" />
+  <menuitem MenuId="41" Root="25" Name="Document Master                                   " Url="DocumentDetails.aspx" UserAccess="e" />
+  <menuitem MenuId="44" Root="25" Name="Broker Master                                     " Url="BrokerDetail.aspx" UserAccess="e" />
+  <menuitem MenuId="120" Root="4" Name="View Stock Details                                " Url="ViewStockDetails.aspx" UserAccess="e" />
+  <menuitem MenuId="135" Root="5" Name="Transaction                                       " Url="" UserAccess="e" />
+  <menuitem MenuId="139" Root="135" Name="Staffwise                                         " Url="ReportSelection.aspx?Rpt=StaffwiseTrans" UserAccess="e" />
+  <menuitem MenuId="302" Root="49" Name="Security Category Master                          " Url="SecurityCategoryDetail.aspx" UserAccess="e" />
+  <menuitem MenuId="314" Root="3" Name="Yield Calculator                                  " Url="YieldCalculator.aspx" UserAccess="e" />
+  <menuitem MenuId="319" Root="135" Name="Brokerwise                                        " Url="ReportSelection.aspx?Rpt=BrokerWiseTrans" UserAccess="e" />
+  <menuitem MenuId="219" Root="6" Name="Message Board                                     " Url="MessageDetail.aspx" UserAccess="e" />
+  <menuitem MenuId="24" Root="2" Name="Customer                                          " Url="" UserAccess="e" />
+  <menuitem MenuId="97" Root="3" Name="Deal Slip Entry                                   " Url="DealSlipDetail.aspx" UserAccess="e" />
+  <menuitem MenuId="221" Root="6" Name="Offer Letter Generation                           " Url="FaxSelection.aspx" UserAccess="e" />
+  <menuitem MenuId="304" Root="49" Name="Issuer Master                                     " Url="IssuerMasterDetail_RDM.aspx" UserAccess="e" />
+  <menuitem MenuId="49" Root="2" Name="Security                                          " Url="" UserAccess="e" />
+  <menuitem MenuId="52" Root="49" Name="Security Type Master                              " Url="SecurityTypeDetail.aspx" UserAccess="e" />
+  <menuitem MenuId="227" Root="6" Name="Print Deals                                       " Url="PrintDeals.aspx" UserAccess="e" />
+  <menuitem MenuId="25" Root="2" Name="Other                                             " Url="" UserAccess="e" />
+  <menuitem MenuId="53" Root="49" Name="Security Master                                   " Url="SecurityMasterDetail.aspx" UserAccess="e" />
+  <menuitem MenuId="100" Root="3" Name="Pending Cost Memo                                 " Url="PendingCostMemo.aspx" UserAccess="e" />
+  <menuitem MenuId="296" Root="49" Name="Rating Org Master                                 " Url="RatingOrganizationDetails.aspx" UserAccess="e" />
+  <menuitem MenuId="297" Root="49" Name="Rating Master                                     " Url="RatingDetail.aspx" UserAccess="e" />
+  <menuitem MenuId="231" Root="6" Name="Delete Fax Quotes                                 " Url="DeleteFaxQuotes.aspx" UserAccess="e" />
+</menu>

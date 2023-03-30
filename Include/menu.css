@@ -1,0 +1,109 @@
+/* --- menu styles ---
+note:
+	not all browsers render styles the same way so try out your style sheet
+	on different browsers before publishing;
+*/
+/* level 0 inner */
+
+.m0l0iout
+{
+	font-family: verdana,Arial, Helvetica;
+	font-size: 11px;
+	text-decoration: none;
+	padding-top:5px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+
+	  
+	 
+}
+.m0l0iover
+{
+	font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	height:30px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	background-color:#1e5f8d;
+	vertical-align:top;
+	padding-top:5px;
+
+	 
+}
+
+/* level 0 outer */
+.m0l0oout
+{
+	text-decoration: none;
+	
+	background: #EFF0E8;
+}
+.m0l0oover
+{
+	text-decoration: none;
+	
+	background: #1e5f8d;
+}
+
+/* level 1 inner */
+.m0l1iout
+{
+	z-index: 999;
+	font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border: 0px solid #FFFFFF;
+	padding: 4px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+}
+.m0l1iover
+{
+	font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border: 0px solid red;
+	padding: 4px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	background-color:#000036;
+}
+
+
+/* level 1 outer */
+.m0l1oout
+{
+	text-decoration: none;
+	background: #1e5f8d;
+	
+	
+}
+.m0l1oover
+{
+	text-decoration: none;
+	background: #000036;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 275px;
+    right: 10px;
+    border-top: 3px solid #1dacd6;
+    border-radius: 4px;
+    padding: 10px 5px;
+    color: #363636;
+    margin-top: 5em;
+}
+
+#userinfo:hover .dropdown-content {
+    display: inline;
+}
+
+
+

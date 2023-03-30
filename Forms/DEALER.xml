@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <menuitem MenuId="1" Root="" Name="System                                            " Url="" UserAccess="e" />
+  <menuitem MenuId="2" Root="" Name="Master                                            " Url="" UserAccess="e" />
+  <menuitem MenuId="3" Root="" Name="Entry                                             " Url="" UserAccess="e" />
+  <menuitem MenuId="4" Root="" Name=" Daily Reports                                    " Url="" UserAccess="e" />
+  <menuitem MenuId="5" Root="" Name="MIS Reports                                       " Url="" UserAccess="e" />
+  <menuitem MenuId="6" Root="" Name="Utilities                                         " Url="" UserAccess="e" />
+  <menuitem MenuId="12" Root="1" Name="Change Password                                   " Url="ChangePassword.aspx" UserAccess="e" />
+  <menuitem MenuId="31" Root="24" Name="Client Profile Master                             " Url="ClientProfileDetail.aspx" UserAccess="e" />
+  <menuitem MenuId="44" Root="25" Name="Broker Master                                     " Url="BrokerDetail.aspx" UserAccess="e" />
+  <menuitem MenuId="120" Root="4" Name="View Stock Details                                " Url="ViewStockDetails.aspx" UserAccess="e" />
+  <menuitem MenuId="135" Root="5" Name="Transaction                                       " Url="" UserAccess="e" />
+  <menuitem MenuId="139" Root="135" Name="Staffwise                                         " Url="ReportSelection.aspx?Rpt=StaffwiseTrans" UserAccess="e" />
+  <menuitem MenuId="314" Root="3" Name="Yield Calculator                                  " Url="YieldCalculator.aspx" UserAccess="e" />
+  <menuitem MenuId="319" Root="135" Name="Brokerwise                                        " Url="ReportSelection.aspx?Rpt=BrokerWiseTrans" UserAccess="e" />
+  <menuitem MenuId="320" Root="6" Name="Invoice                                           " Url="" UserAccess="e" />
+  <menuitem MenuId="321" Root="320" Name="Generate Invoice                                  " Url="RetailDebitNote.aspx" UserAccess="e" />
+  <menuitem MenuId="322" Root="320" Name="Print Invoice                                     " Url="PrintInvoice.aspx" UserAccess="e" />
+  <menuitem MenuId="323" Root="320" Name="Cancel Invoice                                    " Url="CancelRetailDebitNote.aspx" UserAccess="e" />
+  <menuitem MenuId="324" Root="6" Name="Upload Deal Ack                                   " Url="UploadAcknowledgedDeals.aspx" UserAccess="e" />
+  <menuitem MenuId="24" Root="2" Name="Customer                                          " Url="" UserAccess="e" />
+  <menuitem MenuId="97" Root="3" Name="Deal Slip Entry                                   " Url="DealSlipDetail.aspx" UserAccess="e" />
+  <menuitem MenuId="221" Root="6" Name="Offer Letter Generation                           " Url="FaxSelection.aspx" UserAccess="e" />
+  <menuitem MenuId="227" Root="6" Name="Print Deals                                       " Url="PrintDeals.aspx" UserAccess="e" />
+  <menuitem MenuId="25" Root="2" Name="Other                                             " Url="" UserAccess="e" />
+  <menuitem MenuId="100" Root="3" Name="Pending Cost Memo                                 " Url="PendingCostMemo.aspx" UserAccess="e" />
+  <menuitem MenuId="231" Root="6" Name="Delete Fax Quotes                                 " Url="DeleteFaxQuotes.aspx" UserAccess="e" />
+</menu>

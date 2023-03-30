@@ -1,0 +1,74 @@
+.loginBody {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	background-image: url(../images/loginscreen_bg.jpg);
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	background-position: 0px 64px;
+	margin: 0px;
+	padding: 0px;
+}
+.frmTextBox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #315C85;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 2px solid #819FB3;
+	height: 20px;
+	width: 150px;
+}
+.frmLabel {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+.loginButton {
+	background-image: url(../images/login_button.gif);
+	width: 118px;
+	height: 35px;
+	display: block;
+}
+.errText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+.headerText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.FieldText
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: Black;
+	text-decoration: none; 
+	   
+}
+.HeadText
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold; 
+	color: White;
+	text-decoration: none; 
+}
+.ButtonText
+{
+	display:block;
+	font-size: 12px;
+	font-weight: normal;
+	color:White; 
+	text-decoration: none; 	  
+	
+}
