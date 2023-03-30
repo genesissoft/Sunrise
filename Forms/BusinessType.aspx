@@ -11,7 +11,7 @@ function Validation()
     
     if((document.getElementById ("ctl00_ContentPlaceHolder1_txt_BusinessType").value)== "")
     { 
-        alert('Please Enter Business Type');
+        alert('Please Enter Businesss Type');
         return false;   
     }
     
